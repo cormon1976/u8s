@@ -1,10 +1,10 @@
 language: python
-
 python:
-  - "2.7"
-# command to install dependencies
+- '2.7'
 install:
-  - pip install -r requirements.txt
-# command to run tests
+- pip install -r requirements.txt
 script:
-  - python -m py.test tests
+- python -m py.test tests
+env:
+  global:
+    secure: X7BLAy7tEqoi3nfVIN0iwn3lVD7qCvLa0UgET4NiYJ3qUK4QT/StnbNvygdQjp1zKpuallJ44/h+zpIGIsILMqRQJM86zdCtGOJ3woWdXk0Cly4vG1rZ/tje3pYS2Bvwged/iBzhtEhKW0S/PSm/wFI9IhofLVNRkDpyEX9hZhsy6wNjTyL52GTWeRp6HkiJVNFHyVydVhu+99ukYarIDsLHTpMxP2FOCb1VN1IG4/mEN8Stz6FhPkLlRX/HIe63Z020ttMgKykG4gApiW8hkrRLoDd3g6lj6PtH1a/V7ycdeRCbZjf/KNHdHNnEOdPju7DMgnN24+c5DjN7Odz7g8qzpDL+mkwVl5tjJTbdZxzNPnP9cvo8rEMNi8wtx5PnN0sby62kvJ1HD0i2g8yfrzF5PWfHeiSUgt18S8EHkdjw7DhQtQ5l7jA52kUcx66mJLbwlkijETSwkAWIzGQ3adv6n7uTVTCOXTH04tCDEfbaRMNIY+yN9ytfQ+aGIb03WUt7MApLpRmJzPjlwdIzLFJENGNJ3/fPKdkwPRcw1MieZUu/DcRMncgTZIvDkHqxavmSVybtgMkQ7lhHlb5UzUCaZNSsiHWZxYaK3+sEdgUAe3M3BRGRhJzx0VSdgC+XiSx2fX5VmVg/s/Uu7A/fO29Pz2dgzKwoDpFSKLESm50=
